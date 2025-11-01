@@ -12,7 +12,7 @@ import {
   FaHeart,
   FaUser,
 } from "react-icons/fa6";
-import Pagination from "../Helper/Pagination";
+// import Pagination from "../Helper/Pagination";
 import { ToastContainer, toast } from "react-toastify";
 import BlogCard from "./BlogCard";
 import MySkeleton from "../Helper/MySkeleton";
@@ -185,7 +185,7 @@ const BlogPage = () => {
               ));
             })()}
           </div>
-          <Pagination />
+          {/* <Pagination /> */}
         </div>
       )}
     </>
