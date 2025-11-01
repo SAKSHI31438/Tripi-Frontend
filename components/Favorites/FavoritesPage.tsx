@@ -64,13 +64,13 @@ const FavoritesPage = () => {
               {/* Hotels Section */}
               {favoriteHotels.length > 0 && (
                 <>
-                  <div className="w-full flex justify-between items-center pt-3 pb-5">
-                    <h2 className="text-2xl font-semibold text-blue-900 ">
+                  <div className="w-full lg:flex flex-none lg:mt-0 mt-2 justify-between items-center pt-3 pb-5 ">
+                    <h2 className="lg:text-2xl text-xl font-semibold text-blue-900 ">
                       🏨 Favorite Hotels
                     </h2>
                     <Link
                       href="/#hotel"
-                      className="p-2 h-[40px] w-[200px] bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
+                      className="p-2 h-[40px] w-[200px] lg:mt-0 mt-3 bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
                     >
                       Explore Hotels
                     </Link>
@@ -85,13 +85,13 @@ const FavoritesPage = () => {
               {/* Blogs Section */}
               {favoriteBlogs.length > 0 && (
                 <>
-                  <div className="w-full flex justify-between items-center pt-3 pb-5 mt-10">
-                    <h2 className="text-2xl font-semibold text-blue-900 ">
+                  <div className="w-full lg:flex flex-none justify-between items-center pt-3 pb-5 mt-10">
+                    <h2 className="lg:text-2xl text-xl font-semibold text-blue-900 ">
                       ✍️ Favorite Blogs
                     </h2>
                     <Link
                       href="/blog"
-                      className="p-2 h-[40px] w-[200px] bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
+                      className="p-2 h-[40px] w-[200px] lg:mt-0 mt-3 bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
                     >
                       Explore Blogs
                     </Link>
@@ -112,13 +112,13 @@ const FavoritesPage = () => {
 
               {favoriteDestination.length > 0 && (
                 <>
-                  <div className="w-full flex justify-between items-center pt-3 pb-5 mt-10">
-                    <h2 className="text-2xl font-semibold text-blue-900 ">
+                  <div className="w-full lg:flex flex-none justify-between items-center pt-3 pb-5 mt-10">
+                    <h2 className="lg:text-2xl text-xl font-semibold text-blue-900 ">
                       ✍️ Favorite Destinations
                     </h2>
                     <Link
                       href="/destination"
-                      className="p-2 h-[40px] w-[200px] bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
+                      className="p-2 h-[40px] w-[200px] lg:mt-0 mt-3 bg-blue-900 text-white rounded-lg flex items-center  justify-center hover:bg-blue-950 text-center"
                     >
                       Explore Destinations
                     </Link>

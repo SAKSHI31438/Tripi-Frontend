@@ -23,8 +23,8 @@ import { ToastContainer } from "react-toastify";
 const font = Poppins({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata: Metadata = {
-  title: "Travel Website",
-  description: "Travel web",
+  title: "Tripi - A Travel Website | Sakshi Kadam",
+  description: "Travel website",
 };
 
 export default function RootLayout({
@@ -34,7 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased`}>
+      <body
+        className={`${font.className} antialiased overflow-x-hidden m-0 p-0 overflow-y-auto overflow-hidden`}
+      >
         <div className="overflow-hidden">
           <NavbarWrapper />
           {children}

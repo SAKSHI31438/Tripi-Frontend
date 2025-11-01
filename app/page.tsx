@@ -3,9 +3,11 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="overflow-hidden">
-      <Home />
-    </div>
+    <>
+      <div className="overflow-hidden">
+        <Home />
+      </div>
+    </>
   );
 };
 
