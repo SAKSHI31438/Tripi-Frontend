@@ -597,7 +597,7 @@ export const destinationPage = [
     id: 8,
     name: "Rishikesh River Rafting",
     location: "Rishikesh, Uttarakhand, India",
-    image: "/images/destinationpage1/Rishikesh River Rafting.cms",
+    image: "/images/destinationpage1/Rishikesh River Rafting.jpg",
     description:
       "A hub for adventure lovers and yoga seekers — enjoy river rafting and breathtaking views of the Himalayas.",
     rating: 4.7,
