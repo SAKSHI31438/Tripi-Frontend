@@ -114,15 +114,17 @@ const ChatBot = () => {
 
               {/* Input */}
               <div className="rounded-bl-2xl rounded-br-2xl ">
-                <div className="flex items-center  gap-2 p-3 bg-blue-950">
-                  <input
-                    id="chatInput"
-                    type="text"
-                    ref={inputRef}
-                    required
-                    placeholder="Type a message..."
-                    className="flex-1 px-3 py-2 rounded-lg text-sm outline-none border placeholder-black bg-white text-black"
-                  />
+                <div className="flex items-center  gap-2 p-3 bg-blue-950 w-[100%] justify-between">
+                  <div className="lg:w-[80%] sm:w-[90%] xs:w-[60%]">
+                    <input
+                      id="chatInput"
+                      type="text"
+                      ref={inputRef}
+                      required
+                      placeholder="Type a message..."
+                      className="flex-1 px-3 w-full py-2 rounded-lg text-sm outline-none border placeholder-black bg-white text-black"
+                    />
+                  </div>
                   <button
                     onClick={sendMessage}
                     className="bg-white border-none hover:opacity-90 cursor-pointer text-gray-800 px-3 py-1.5 rounded-lg font-medium transition"
