@@ -124,25 +124,24 @@ const BlogCard = ({ blog }: Props) => {
         </div>
 
         <div className="mt-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center bg-blue-100 text-blue-800 rounded-full h-10 w-10 font-semibold">
+          <div className="flex items-center lg:gap-3 gap-2 ">
+            <div className="flex items-center justify-center bg-blue-100 text-blue-800 rounded-full h-10 w-10  font-semibold ">
               {getInitials(blog.author)}
             </div>
-            <div className="text-sm text-slate-600">
+            <div className="lg:text-sm text-xs text-slate-600">
               <div>
                 By{" "}
                 <span className="font-semibold text-slate-800">
                   {blog.author}
                 </span>
               </div>
-              <div className="text-xs text-slate-500">
-                {readableDate} • {blog.email}
-              </div>
+              <div className="text-xs text-slate-500">{readableDate}</div>
+              <div className="text-xs text-slate-500">{blog.email}</div>
             </div>
           </div>
 
           <Link href={`/blog/${blog._id}`}>
-            <button className="inline-flex items-center cursor-pointer text-center w-[100px] px-2 py-2 bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-800 hover:to-blue-700 text-white rounded-md text-sm font-semibold">
+            <button className="inline-flex items-center cursor-pointer text-center lg:w-[100px] w-[80px] lg:px-2 py-2 lg:text-sm px-1 text-xs bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-800 hover:to-blue-700 text-white rounded-md  font-semibold">
               Read More
             </button>
           </Link>
